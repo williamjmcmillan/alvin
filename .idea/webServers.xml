@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b5e735c-8d19-4c04-84e7-3c2dc2446d5d" name="scpi" url="">
+        <fileTransfer rootFolder="/home/pi/Documents/projects/sc/alvin/java/source" accessType="SFTP" host="192.168.0.12" port="22" sshConfigId="7b598602-be8a-4567-96ce-466f20c31948" sshConfig="pi@192.168.0.12:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
