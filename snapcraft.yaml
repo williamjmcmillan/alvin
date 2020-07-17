@@ -13,4 +13,13 @@ parts:
       plugin: gradle
       source: https://github.com/williamjmcmillan/alvin.git
       source-type: git
+      source-tag: master
       gradle-output-dir: build/libs
+      build-environment:
+      - JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
+      - PATH: $JAVA_HOME/jre/bin:$PATH
+      build-packages:
+      - default-jdk
+      - default-jre
+      stage-packages:
+      - default-jre
